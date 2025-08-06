@@ -2,18 +2,20 @@
 #requirement file
 # pip freeze > requirements.txt
 
-site_name: "Netomat LLC Blog"
+site_name: "" #"BLOG"
 site_url: https://blog.netomat.io/
 theme:
   name: material
-  logo: assets/netomat_MainLogo.png
+  logo: assets/images/netomat_logo_gemini1b.png
+  favicon: assets/images/favicon/favicon.ico
   
-nav:
-  - index.md
+# nav:
+#   - Home: www.netomat.io
+#   - index.md
   # - Blog:
-  #     - Blog: blog/index.md
+  #     - Blog: index.md
       #- Archive: blog/archive.md
-  # - Home: www.netomat.io/ 
+  
   # - Services:
   #     - Overview: https://www.netomat.io/services/
   #     - Architecture & Design: https://www.netomat.io/services/architecture_design/

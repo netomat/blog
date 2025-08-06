@@ -1,6 +1,6 @@
 ---
 #draft: true 
-date: 2026-08-06 
+date: 2025-08-05 
 authors:
 - netomat
 categories:

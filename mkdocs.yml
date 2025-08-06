@@ -9,6 +9,7 @@ theme:
   logo: assets/netomat_MainLogo.png
   
 nav:
+  - index.md
   - Home: www.netomat.io/
   - Blog:
       - Blog: blog/index.md
@@ -35,6 +36,7 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - blog
+      blog_dir: .
 
 copyright: >
   Copyright &copy; 2024 -> Netomat LLC

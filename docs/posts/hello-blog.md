@@ -1,9 +1,11 @@
 ---
 #draft: true 
 date: 2024-01-31 
+authors:
+- netomat
 categories:
-  - Hello
-  - World
+  - Blog
+  
 ---
 
 # Welcome to my blog!

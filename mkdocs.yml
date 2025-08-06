@@ -10,8 +10,8 @@ theme:
   
 nav:
   - index.md
-  - Blog:
-      - Blog: blog/index.md
+  # - Blog:
+  #     - Blog: blog/index.md
       #- Archive: blog/archive.md
   # - Home: www.netomat.io/ 
   # - Services:

@@ -1,0 +1,49 @@
+# When installind addtional plugins or extenstions dont forget to put them into
+#requirement file
+# pip freeze > requirements.txt
+
+site_name: "Netomat LLC Blog"
+site_url: https://blog.netomat.io/
+theme:
+  name: material
+  logo: assets/netomat_MainLogo.png
+  
+nav:
+  - Home: www.netomat.io/
+  - Blog:
+      - Blog: blog/index.md
+      #- Archive: blog/archive.md
+ 
+  - Services:
+      - Overview: https://www.netomat.io/services/
+      - Architecture & Design: https://www.netomat.io/services/architecture_design/
+      - Engineering: https://www.netomat.io/services/engineering/
+      - Testing: https://www.netomat.io/services/testing/
+  - About: 
+    - About me: https://www.netomat.io/about/me/
+    - Company Details: https://www.netomat.io/about/imprint/
+  
+  #   # - Skills: about/me/skills.md
+  #   # - Projects: about/me/projects.md
+   
+
+plugins:
+  - search
+  - encriptmail:
+       placeholderAt: (Q)
+       placeholderDot: (P)
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - blog
+
+copyright: >
+  Copyright &copy; 2024 -> Netomat LLC
+
+# extra:
+  # generator: false
+
+extra_css:
+  - styles/extra.css
+
+markdown_extensions:
+  - attr_list

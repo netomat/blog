@@ -10,19 +10,18 @@ theme:
   
 nav:
   - index.md
-  - Home: www.netomat.io/
   - Blog:
       - Blog: blog/index.md
       #- Archive: blog/archive.md
- 
-  - Services:
-      - Overview: https://www.netomat.io/services/
-      - Architecture & Design: https://www.netomat.io/services/architecture_design/
-      - Engineering: https://www.netomat.io/services/engineering/
-      - Testing: https://www.netomat.io/services/testing/
-  - About: 
-    - About me: https://www.netomat.io/about/me/
-    - Company Details: https://www.netomat.io/about/imprint/
+  # - Home: www.netomat.io/ 
+  # - Services:
+  #     - Overview: https://www.netomat.io/services/
+  #     - Architecture & Design: https://www.netomat.io/services/architecture_design/
+  #     - Engineering: https://www.netomat.io/services/engineering/
+  #     - Testing: https://www.netomat.io/services/testing/
+  # - About: 
+  #   - About me: https://www.netomat.io/about/me/
+  #   - Company Details: https://www.netomat.io/about/imprint/
   
   #   # - Skills: about/me/skills.md
   #   # - Projects: about/me/projects.md
@@ -35,7 +34,7 @@ plugins:
   #      placeholderDot: (P)
   - git-revision-date-localized:
       enable_creation_date: true
-  - blog
+  - blog:
       blog_dir: .
 
 copyright: >

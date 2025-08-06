@@ -30,9 +30,9 @@ nav:
 
 plugins:
   - search
-  - encriptmail:
-       placeholderAt: (Q)
-       placeholderDot: (P)
+  # - encriptmail:
+  #      placeholderAt: (Q)
+  #      placeholderDot: (P)
   - git-revision-date-localized:
       enable_creation_date: true
   - blog

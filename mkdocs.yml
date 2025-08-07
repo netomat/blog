@@ -8,6 +8,10 @@ theme:
   name: material
   logo: assets/images/netomat_logo_gemini1b.png
   favicon: assets/images/favicon/favicon.ico
+  theme:
+  name: material
+  logo: assets/images/netomat_logo_gemini1b.png
+  favicon: assets/images/favicon/favicon.ico
   palette:
 
     # Palette toggle for automatic mode
@@ -30,9 +34,13 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
   
-# nav:
-#   - Home: www.netomat.io
-#   - index.md
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+  
+nav:
+  - Home: www.netomat.io
+  - index.md
   # - Blog:
   #     - Blog: index.md
       #- Archive: blog/archive.md

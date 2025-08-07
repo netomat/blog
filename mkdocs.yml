@@ -39,7 +39,7 @@ theme:
     - navigation.tabs.sticky
   
 nav:
-  - Home: www.netomat.io
+  - Home: 'https://www.netomat.io'
   - index.md
   # - Blog:
   #     - Blog: index.md

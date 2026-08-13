@@ -24,9 +24,9 @@ timeZone = "America/Chicago"
   author = "Marcel Reuter"
 
   [params.label]
-    text = "netomat blog"
-    icon = "/images/netomat_logo_gemini1b.png"
-    iconHeight = 30
+    text = "blog"
+    icon = "/images/netomat-logo.svg"
+    iconHeight = 26
 
   [params.assets]
     favicon = "/favicon/favicon.ico"

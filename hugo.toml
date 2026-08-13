@@ -1,0 +1,60 @@
+baseURL = "https://blog.netomat.io/"
+locale = "en-us"
+title = "Netomat Blog"
+theme = ["netomat", "PaperMod"]
+enableRobotsTXT = true
+timeZone = "America/Chicago"
+
+[pagination]
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "Netomat networking blog - Segment-Routing, MPLS, data center, network automation"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowRssButtonInSectionTermList = true
+  author = "Marcel Reuter"
+
+  [params.label]
+    text = "netomat blog"
+    icon = "/images/netomat_logo_gemini1b.png"
+    iconHeight = 30
+
+  [params.assets]
+    favicon = "/favicon/favicon.ico"
+    favicon16x16 = "/favicon/favicon-96x96.png"
+    favicon32x32 = "/favicon/favicon-96x96.png"
+    apple_touch_icon = "/favicon/apple-touch-icon.png"
+
+[menus]
+  [[menus.main]]
+    name = "Home"
+    url = "https://www.netomat.io"
+    weight = 10
+  [[menus.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 20
+  [[menus.main]]
+    name = "Categories"
+    url = "/categories/"
+    weight = 30
+  [[menus.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

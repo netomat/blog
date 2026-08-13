@@ -6,7 +6,7 @@ netomat-theme brand layer on top.
 ## Local development
 
 ```bash
-git clone --recurse-submodules git@gitlab.com:netomat/blog.git
+git clone --recurse-submodules git@github.com:netomat/blog.git
 hugo server -D          # serve with drafts at http://localhost:1313
 hugo                    # production build into public/
 ```

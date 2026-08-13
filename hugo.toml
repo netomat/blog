@@ -23,6 +23,9 @@ timeZone = "America/Chicago"
   ShowRssButtonInSectionTermList = true
   author = "Marcel Reuter"
 
+  [params.footer]
+    text = "[Imprint](https://www.netomat.io/about/imprint/)"
+
   [params.label]
     text = "blog"
     icon = "/images/netomat-logo.svg"
